@@ -1,0 +1,40 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+#header {
+
+
+}
+
+#content {
+  width: 80%;
+  margin: auto;
+
+}
+
+.question {
+  width: 95%;
+  float: right;
+}
+
+.question_statement {
+  font-weight: bold;
+}
+
+.question_answer {
+  width: 95%;
+  float: right;
+}
+
+.image_box {
+  width: 600px;
+  padding: 0px;
+  margin: auto;
+}
+
+img {
+  width=300px;
+  margin: 0;
+  padding: 0;
+}
