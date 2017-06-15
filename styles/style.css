@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 0;
   margin: 0;
 }
@@ -12,7 +12,9 @@
 #content {
   width: 80%;
   margin: auto;
-
+  border: 1px solid yellow;
+  overflow: hidden;
+  width: 100%;
 }
 
 p {
@@ -20,11 +22,10 @@ p {
 }
 
 .question {
-  /*width: 95%;
-  float: right;*/
+  width: 95%;
+  float: right;
   background-color: #FFDFC1;
   margin: 10px 0px;
-  
 }
 
 .statement {
@@ -36,6 +37,7 @@ p {
 .indent {
   width: 95%;
   float: right;
+
 }
 
 .image_box {
@@ -50,6 +52,6 @@ img {
   padding: 0;
 }
 
-.colored{
-  border: 1px solid red;
+.clear-top{
+  clear: both;
 }
