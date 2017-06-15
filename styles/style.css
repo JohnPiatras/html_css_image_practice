@@ -1,5 +1,7 @@
 * {
-  /*border: 1px solid black;*/
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
@@ -13,16 +15,25 @@
 
 }
 
+p {
+  margin: 10px 0px;
+}
+
 .question {
-  width: 95%;
-  float: right;
+  /*width: 95%;
+  float: right;*/
+  background-color: #FFDFC1;
+  margin: 10px 0px;
+  
 }
 
-.question_statement {
-  font-weight: bold;
+.statement {
+  /*font-weight: bold;*/
+  background-color: #E9CBAE;
+  margin-top: 0px;
 }
 
-.question_answer {
+.indent {
   width: 95%;
   float: right;
 }
@@ -37,4 +48,8 @@ img {
   width=300px;
   margin: 0;
   padding: 0;
+}
+
+.colored{
+  border: 1px solid red;
 }
