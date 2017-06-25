@@ -38,6 +38,10 @@ p {
   padding-right: 1em;
 }
 
+.answer {
+  display: none;
+}
+
 .statement {
   /*font-weight: bold;*/
 
