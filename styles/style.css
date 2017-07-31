@@ -20,6 +20,12 @@ p {
   margin: 10px 0px;
 }
 
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .question {
   background-color: #F9EFE5;
   margin: 2em 0px;
